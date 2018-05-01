@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "blog about life and technoledge",
+  "description": "My blog about life and technology",
   "author": "sli <shasha.li@kisters.cn>",
   "private": true,
   "scripts": {
