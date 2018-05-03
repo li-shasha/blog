@@ -28,14 +28,14 @@
                 </el-row>
 
                 <el-row :gutter="40" :justify="center">
-                    <el-col :xs="24" :sm="{span:7,offset:1}">
+                    <el-col :xs="24" :sm="{span:7,offset:1}" :lg="{span:5,offset:4}">
                         <img src="./assets/img/artboard-1.png" alt="dashboard1">
                         <div>
                             <p><strong>Work</strong></p>
                             <p>Such a feelin's comin' over me There is wonder in 'most ev'ry thing I see</p>
                         </div>
                     </el-col>
-                    <el-col :xs="24" :sm="7">
+                    <el-col :xs="24" :sm="7" :lg="5">
                         <img src="./assets/img/artboard-2.png" alt="dashboard2">
                         <div>
                             <p><strong>Life</strong></p>
@@ -43,7 +43,7 @@
                                 And I won't be surprised if it's a dream</p>
                         </div>
                     </el-col>
-                    <el-col :xs="24" :sm="7">
+                    <el-col :xs="24" :sm="7" :lg="5">
                         <img src="./assets/img/artboard-3.png" alt="dashboard3">
                         <div>
                             <p><strong>Test</strong></p>
@@ -61,7 +61,7 @@
                 </el-row>
 
                 <el-row :gutter="40" :jusity="middle">
-                    <el-col :xs="24" :sm="{span:7, offset:1}">
+                    <el-col :xs="24" :sm="{span:7, offset:1}" :lg="{span:5,offset:4}">
                         <img src="./assets/img/artboard-4.png" alt="dashboard4">
                         <div>
                             <p><strong>Test</strong></p>
@@ -69,7 +69,7 @@
                                 You're the nearest thing to heaven that I've seen</p>
                         </div>
                     </el-col>
-                    <el-col :xs="24" :sm="7">
+                    <el-col :xs="24" :sm="7" :lg="5">
                         <img src="./assets/img/artboard-5.png" alt="dashboard5">
                         <div>
                             <p><strong>Test</strong></p>
@@ -77,7 +77,7 @@
                                 And the only explanation I can find</p>
                         </div>
                     </el-col>
-                    <el-col :xs="24" :sm="7">
+                    <el-col :xs="24" :sm="7" :lg="5">
                         <img src="./assets/img/artboard-6.png" alt="dashboard6">
                         <div>
                             <p><strong>Test</strong></p>
@@ -88,7 +88,7 @@
                 </el-row>
 
                 <el-row>
-                    <el-col>
+                    <el-col :xs="24">
                         <img src="./assets/img/artboard-7.png" alt="dashboard7">
                     </el-col>
                 </el-row>
