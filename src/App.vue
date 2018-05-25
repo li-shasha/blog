@@ -103,7 +103,6 @@
                     <hr>
                 </el-row>
             </el-main>
-
             <el-footer>
                 <el-row :gutter="50">
                     <el-col :span="2" :offset="8">
@@ -124,9 +123,6 @@
                 </el-row>
             </el-footer>
         </el-container>
-
-        <!--<router-view/>-->
-
     </div>
 </template>
 
@@ -147,7 +143,7 @@
 </script>
 
 
-<style>
+<style scoped>
     #app {
         font-family: "Roboto", 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -161,10 +157,11 @@
     }
 
     .el-menu-demo {
-        border:none;
+        border: none;
         display: inline-block;
         text-align: center;
     }
+
     @media only screen and (max-width: 768px) {
         .el-container {
             margin: 0 15px;
@@ -184,10 +181,12 @@
     .el-row {
         margin: 30px 0;
     }
-    .el-header .row-hr-line{
+
+    .el-header .row-hr-line {
         color: rgb(240, 240, 240);
         margin: -12px 0 0;
     }
+
     .el-main .row-hr-line {
         color: rgb(240, 240, 240);
         margin: 30px 0;
@@ -212,10 +211,10 @@
         color: #626262;
     }
 
-    .el-footer a{
+    .el-footer a {
         text-decoration: none;
         font-size: 20px;
-        color: rgb(148, 175, 185) ;
+        color: rgb(148, 175, 185);
     }
 
 </style>

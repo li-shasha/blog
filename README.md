@@ -27,4 +27,7 @@ npm run e2e
 npm test
 ```
 
+### Visit localhost:8010/blog
+The port is change at /config/index.js
+
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
